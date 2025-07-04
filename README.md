@@ -1,143 +1,133 @@
-English Version
+Atendor Design System
 
-Atendor
+A fully customizable, accessible, and scalable UI system for Atendor products.
+Built with Reactbits, React, Tailwind CSS, Storybook, Lucide Icons, and the Geist font.
 
-Atendor is a plug & play SaaS platform for business automation.
-Built for professionals and companies who want to automate their customer service, sales, marketing and operations in just a few clicks.
+✨ Key Features
 
-🚀 What is Atendor?
+UI Kit: Reactbits https://github.com/DavidHDev/react-bits, fully customized for Atendor tokens and typography
 
-Atendor combines a beautiful, simple frontend (Next.js) with a robust workflow engine (n8n) and a secure, scalable backend (Supabase). It offers a ready-to-use template gallery so users can start automating key processes—no technical skills required.
+Tech stack: React (TypeScript), Tailwind (4px grid), Storybook, Lucide, Geist (Google Fonts)
 
-Key features:
+Color tokens:
 
-Ready-to-use automation templates (lead capture, notifications, reminders, sales, reporting, and more)
+Primary: #925CFF
 
-User authentication and data storage via Supabase
+Accent: #37D7FF
 
-Serverless deployment (Vercel)
+Secondary: #EADFFD
 
-Automated email notifications (Resend, or similar)
+Background: #FAFAFA
 
-Each user manages their own workflows and history
+Surface: #FFFFFF
 
-Plug & play integration with 100+ services via n8n
+Muted: #F1F1F6
 
-🛠️ Stack
+Text: #231942
 
-Frontend: Next.js (deployed on Vercel)
+Success: #30E39B
 
-Backend & Auth: Supabase
+Error: #FF6680
 
-Workflow Engine: n8n (self-hosted)
+Warning: #FFD666
 
-Email Service: Resend
+Accessibility: Keyboard navigation, visible focus, ARIA, full Storybook docs
 
-Domain: atendor.xyz
+Animated Lucide icons on hover (scale/color)
 
-📝 How to Run Locally
+Atomic folder structure ready for future backend/API integration
 
-Clone the repo and install dependencies:
+Storybook docs: All component states, color tokens, usage, accessibility, code samples
 
-git clone https://github.com/youruser/atendor.git
-cd atendor
+🗂️ Project Structure
+
+/src/components/   # All base UI components
+/src/theme/        # Theme tokens, Tailwind config, custom styles
+/src/icons/        # Lucide icon imports and wrappers
+/src/stories/      # Storybook stories (one per component, full docs)
+/public/           # Static assets
+.env.example       # Example for future API keys (N8N_API_URL)
+README.md          # This documentation
+
+🚀 Getting Started
+
+1. Installation
+
+Clone the repository and install dependencies:
+
+git clone https://github.com/your-org/atendor-design-system.git
+cd atendor-design-system
 npm install
 
-Create a .env.local file with your Supabase and n8n credentials (see .env.example).
+2. Run Storybook
 
-Run the app:
+npm run storybook
 
-npm run dev
+This opens the Storybook UI documentation at http://localhost:6006.
 
-Access http://localhost:3000
+3. Development
 
-🚦 MVP User Flow
+All UI code lives in /src/components and is documented in Storybook.
 
-Sign up (Supabase Auth)
+All styling uses Tailwind CSS configured for a 4px grid and Atendor color tokens (see /src/theme/).
 
-Browse the template gallery
+The main font is Geist, loaded via Google Fonts in /public/index.html or the appropriate Next.js file.
 
-Import a template to your workspace (via n8n API)
+Lucide icons are imported via npm and composed in /src/icons/ with hover animation (scale/color).
 
-Customize and run the workflow
+Each component is accessible (ARIA roles, keyboard, focus ring).
 
-Receive results/notifications by email
+All mock data is used for demo purposes only. Where real data/API integration is needed, you’ll see clear TODOs and code comments.
 
-View execution history
+For future backend, set up your API URL in .env.local based on the sample .env.example file:
 
-🧑‍💻 Contributors
+N8N_API_URL=https://your-api-url-here
 
-Feel free to fork and contribute!
+🧩 Base Components Checklist
 
-Versión Castellano
 
-Atendor
 
-Atendor es una plataforma SaaS plug & play para la automatización de negocios.
-Pensada para profesionales y empresas que quieren automatizar atención al cliente, ventas, marketing y operaciones en solo unos clics.
+Components not available in Reactbits are composed with existing primitives and placeholder logic.
 
-🚀 ¿Qué es Atendor?
+📚 Storybook Documentation
 
-Atendor combina un frontend simple y atractivo (Next.js) con un potente motor de workflows (n8n) y un backend seguro y escalable (Supabase).
-Ofrece una galería de plantillas listas para usar, para que cualquier usuario pueda automatizar sus procesos clave—sin necesidad de conocimientos técnicos.
+All components have Storybook stories with variants, usage, accessibility, and code samples.
 
-Características principales:
+Tokens, spacing, color system, animation rules, and typography are fully documented in Storybook and /src/theme/.
 
-Plantillas de automatización listas para usar (captura de leads, notificaciones, recordatorios, ventas, reportes y más)
+Getting Started page in Storybook for setup instructions.
 
-Autenticación y almacenamiento de datos vía Supabase
+🔮 Future Custom Modules
 
-Despliegue serverless (Vercel)
+Placeholder folders (e.g. /src/builder/) are scaffolded for upcoming modules like Visual Builder, AI integrations, etc.
 
-Notificaciones automáticas por email (Resend, u otro)
+README and Storybook indicate where to add custom modules and API logic.
 
-Cada usuario gestiona sus propios flujos e historial
+🛠️ Contributing & Customization
 
-Integración plug & play con más de 100 servicios mediante n8n
+Fork the repo, create a feature branch, open a Pull Request.
 
-🛠️ Stack
+Follow the 4px grid and color palette for all custom components.
 
-Frontend: Next.js (desplegado en Vercel)
+Use only Lucide icons via npm imports (no raw SVGs).
 
-Backend y Auth: Supabase
+Run npm run lint before submitting changes.
 
-Motor de Workflows: n8n (self-hosted)
+All code, docs, and comments must be in English.
 
-Servicio de Email: Resend
+🔐 Environment Variables
 
-Dominio: atendor.xyz
+.env.example is included:
 
-📝 Cómo ejecutar localmente
+N8N_API_URL=https://your-n8n-api-url.example
 
-Clona el repo e instala dependencias:
+Use .env.local for your local setup. No secrets are committed to the repo.
 
-git clone https://github.com/youruser/atendor.git
-cd atendor
-npm install
+👀 License
 
-Crea el archivo .env.local con tus credenciales de Supabase y n8n (ver ejemplo en .env.example).
+MIT
 
-Ejecuta la app:
+💬 Need Help?
 
-npm run dev
-
-Accede a http://localhost:3000
-
-🚦 Flujo MVP para usuarios
-
-Registro (Supabase Auth)
-
-Navega por la galería de plantillas
-
-Importa una plantilla a tu espacio de trabajo (vía API de n8n)
-
-Personaliza y ejecuta el workflow
-
-Recibe resultados/notificaciones por email
-
-Consulta el historial de ejecuciones
-
-🧑‍💻 Contribuidores
-
-¡Forkea y aporta cuando quieras!
+Open an issue or Pull Request, or contact the Atendor team.
 
