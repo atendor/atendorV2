@@ -89,12 +89,41 @@ N8N_API_URL=https://your-api-url-here
 
 🧩 Base Components Checklist
 
-
 - Button
 - Input
 - Card
 
 Components not available in Reactbits are composed with existing primitives and placeholder logic.
+
+### Usage Examples
+
+```tsx
+import Button from "./components/Button";
+
+export default function Example() {
+  return <Button onClick={() => alert("Clicked!")}>Click me</Button>;
+}
+```
+
+```tsx
+import Input from "./components/Input";
+
+export default function Example() {
+  return <Input label="Email" placeholder="you@example.com" />;
+}
+```
+
+```tsx
+import Card from "./components/Card";
+
+export default function Example() {
+  return (
+    <Card>
+      <p>Your content here</p>
+    </Card>
+  );
+}
+```
 
 
 🔮 Future Custom Modules
