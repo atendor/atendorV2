@@ -3,11 +3,12 @@ React Design System
 A fully customizable, accessible, and scalable UI system built with React and Tailwind CSS.
 Built with Reactbits, React, Tailwind CSS, Storybook, Lucide Icons, and the Geist font.
 
+
 ✨ Key Features
 
 UI Kit: Reactbits https://github.com/DavidHDev/react-bits, fully customizable with design tokens and typography
 
-Tech stack: React (TypeScript), Tailwind (4px grid), Storybook, Lucide, Geist (Google Fonts)
+Tech stack: React (TypeScript), Tailwind (4px grid), Lucide, Geist (Google Fonts)
 
 Color tokens:
 
@@ -31,21 +32,22 @@ Error: #FF6680
 
 Warning: #FFD666
 
-Accessibility: Keyboard navigation, visible focus, ARIA, full Storybook docs
+Accessibility: Keyboard navigation, visible focus, ARIA
 
 Animated Lucide icons on hover (scale/color)
 
 Atomic folder structure ready for future backend integration
 
-Storybook docs: All component states, color tokens, usage, accessibility, code samples
 
 🗂️ Project Structure
+
 
 /src/components/   # All base UI components
 /src/theme/        # Theme tokens, Tailwind config, custom styles
 /src/icons/        # Lucide icon imports and wrappers
 /stories/          # Storybook stories (one per component, full docs)
 /public/           # Static assets
+
 .env.example       # Example for future API keys (N8N_API_URL)
 README.md          # This documentation
 
@@ -59,21 +61,23 @@ git clone https://github.com/your-org/react-design-system.git
 cd react-design-system
 npm install
 
-2. Run Storybook
+2. Start the development server
 
-npm run storybook
+npm run dev
 
-This opens the Storybook UI documentation at http://localhost:6006.
+Open http://localhost:3000 to view the app.
 
 3. Development
 
-All UI code lives in /src/components and is documented in Storybook.
+All UI code lives in the `components/` directory.
+
 
 All styling uses Tailwind CSS configured for a 4px grid and the design system color tokens (see /src/theme/).
 
-The main font is Geist, loaded via Google Fonts in /public/index.html or the appropriate Next.js file.
 
-Lucide icons are imported via npm and composed in /src/icons/ with hover animation (scale/color).
+The main font is Geist, loaded via Google Fonts in the application.
+
+Lucide icons are imported via npm and used in components with optional hover animation.
 
 Each component is accessible (ARIA roles, keyboard, focus ring).
 
@@ -92,19 +96,12 @@ N8N_API_URL=https://your-api-url-here
 
 Components not available in Reactbits are composed with existing primitives and placeholder logic.
 
-📚 Storybook Documentation
-
-All components have Storybook stories with variants, usage, accessibility, and code samples.
-
-Tokens, spacing, color system, animation rules, and typography are fully documented in Storybook and /src/theme/.
-
-Getting Started page in Storybook for setup instructions.
 
 🔮 Future Custom Modules
 
-Placeholder folders (e.g. /src/builder/) are scaffolded for upcoming modules like Visual Builder, AI integrations, etc.
+Placeholder folders (e.g., `builder/`) are scaffolded for upcoming modules like Visual Builder and AI integrations.
 
-README and Storybook indicate where to add custom modules and API logic.
+README files indicate where to add custom modules and API logic.
 
 🛠️ Contributing & Customization
 
