@@ -4,6 +4,13 @@ import Button from '../components/Button';
 const meta: Meta<typeof Button> = {
   title: 'Components/Button',
   component: Button,
+  parameters: {
+    docs: {
+      description: {
+        component: 'A simple button component styled with DaisyUI.'
+      }
+    }
+  }
 };
 
 export default meta;
