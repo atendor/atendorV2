@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "storybook": "storybook dev -p 6006",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint ."
   },
   "dependencies": {
     "daisyui": "^4.0.0",
