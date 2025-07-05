@@ -85,9 +85,11 @@ Each component is accessible (ARIA roles, keyboard, focus ring).
 
 All mock data is used for demo purposes only. Where real data/API integration is needed, you’ll see clear TODOs and code comments.
 
-For future backend, set up your API URL in .env.local based on the sample .env.example file:
+For future backend and the design system login, set up your credentials in `.env.local` based on the sample `.env.example` file:
 
 N8N_API_URL=https://your-api-url-here
+NEXT_PUBLIC_DS_USER=your-ds-user
+NEXT_PUBLIC_DS_PASS=your-ds-pass
 
 🧩 Base Components Checklist
 
@@ -151,6 +153,8 @@ All code, docs, and comments must be in English.
 .env.example is included:
 
 N8N_API_URL=https://your-n8n-api-url.example
+NEXT_PUBLIC_DS_USER=your-ds-user
+NEXT_PUBLIC_DS_PASS=your-ds-pass
 
 Use .env.local for your local setup. No secrets are committed to the repo.
 
