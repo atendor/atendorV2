@@ -106,7 +106,7 @@ Components not available in Reactbits are composed with existing primitives and 
 ### Usage Examples
 
 ```tsx
-import Button from "./components/Button";
+import { Button } from "./components";
 
 export default function Example() {
   return <Button onClick={() => alert("Clicked!")}>Click me</Button>;
@@ -114,7 +114,7 @@ export default function Example() {
 ```
 
 ```tsx
-import Input from "./components/Input";
+import { Input } from "./components";
 
 export default function Example() {
   return <Input label="Email" placeholder="you@example.com" />;
@@ -122,7 +122,7 @@ export default function Example() {
 ```
 
 ```tsx
-import Card from "./components/Card";
+import { Card } from "./components";
 
 export default function Example() {
   return (

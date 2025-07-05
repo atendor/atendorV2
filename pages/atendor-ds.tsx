@@ -1,7 +1,5 @@
 import { useState, useEffect, FormEvent } from 'react';
-import Button from '../components/Button';
-import Input from '../components/Input';
-import Card from '../components/Card';
+import { Button, Input, Card } from '../components';
 
 const USER = process.env.NEXT_PUBLIC_DS_USER || 'admin';
 const PASS = process.env.NEXT_PUBLIC_DS_PASS || 'password';
