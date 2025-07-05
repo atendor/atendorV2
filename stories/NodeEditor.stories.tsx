@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import NodeEditor from '../components/NodeEditor';
-import Input from '../components/Input';
+import { NodeEditor } from '../components';
+import { Input } from '../components';
 
 const meta: Meta<typeof NodeEditor> = {
   title: 'Components/NodeEditor',

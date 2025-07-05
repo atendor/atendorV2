@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import NodeSidebar from '../components/NodeSidebar';
-import NodeBlock from '../components/NodeBlock';
+import { NodeSidebar } from '../components';
+import { NodeBlock } from '../components';
 
 const meta: Meta<typeof NodeSidebar> = {
   title: 'Components/NodeSidebar',
