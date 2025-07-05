@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-"build-storybook": "storybook build",
-    "lint": "eslint ."
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "storybook": "storybook dev -p 6006",
+  "build-storybook": "storybook build",
+  "lint": "eslint ."
+ },
   "dependencies": {
     "daisyui": "^4.0.0",
     "next": "14.1.0",
