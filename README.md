@@ -91,9 +91,13 @@ N8N_API_URL=https://your-api-url-here
 
 🧩 Base Components Checklist
 
+- Alert
 - Button
-- Input
 - Card
+- Checkbox
+- Input
+- Modal
+- Select
 
 Components not available in Reactbits are composed with existing primitives and placeholder logic.
 
