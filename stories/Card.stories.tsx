@@ -6,6 +6,13 @@ import Input from '../components/Input';
 const meta: Meta<typeof Card> = {
   title: 'Components/Card',
   component: Card,
+  parameters: {
+    docs: {
+      description: {
+        component: 'Container for grouping content with a shadow.'
+      }
+    }
+  }
 };
 
 export default meta;
