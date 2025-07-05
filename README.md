@@ -142,7 +142,7 @@ Follow the 4px grid and color palette for all custom components.
 
 Use only Lucide icons via npm imports (no raw SVGs).
 
-Run npm run lint before submitting changes.
+Run `npm run lint` before submitting changes to check for ESLint errors.
 
 All code, docs, and comments must be in English.
 
