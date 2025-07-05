@@ -1,11 +1,11 @@
-Atendor Design System
+React Design System
 
-A fully customizable, accessible, and scalable UI system for Atendor products.
+A fully customizable, accessible, and scalable UI system built with React and Tailwind CSS.
 Built with Reactbits, React, Tailwind CSS, Storybook, Lucide Icons, and the Geist font.
 
 ✨ Key Features
 
-UI Kit: Reactbits https://github.com/DavidHDev/react-bits, fully customized for Atendor tokens and typography
+UI Kit: Reactbits https://github.com/DavidHDev/react-bits, fully customizable with design tokens and typography
 
 Tech stack: React (TypeScript), Tailwind (4px grid), Storybook, Lucide, Geist (Google Fonts)
 
@@ -35,7 +35,7 @@ Accessibility: Keyboard navigation, visible focus, ARIA, full Storybook docs
 
 Animated Lucide icons on hover (scale/color)
 
-Atomic folder structure ready for future backend/API integration
+Atomic folder structure ready for future backend integration
 
 Storybook docs: All component states, color tokens, usage, accessibility, code samples
 
@@ -55,8 +55,8 @@ README.md          # This documentation
 
 Clone the repository and install dependencies:
 
-git clone https://github.com/your-org/atendor-design-system.git
-cd atendor-design-system
+git clone https://github.com/your-org/react-design-system.git
+cd react-design-system
 npm install
 
 2. Run Storybook
@@ -69,7 +69,7 @@ This opens the Storybook UI documentation at http://localhost:6006.
 
 All UI code lives in /src/components and is documented in Storybook.
 
-All styling uses Tailwind CSS configured for a 4px grid and Atendor color tokens (see /src/theme/).
+All styling uses Tailwind CSS configured for a 4px grid and the design system color tokens (see /src/theme/).
 
 The main font is Geist, loaded via Google Fonts in /public/index.html or the appropriate Next.js file.
 
@@ -86,6 +86,9 @@ N8N_API_URL=https://your-api-url-here
 🧩 Base Components Checklist
 
 
+- Button
+- Input
+- Card
 
 Components not available in Reactbits are composed with existing primitives and placeholder logic.
 
@@ -129,5 +132,5 @@ MIT
 
 💬 Need Help?
 
-Open an issue or Pull Request, or contact the Atendor team.
+Open an issue or Pull Request if you need help.
 
