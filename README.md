@@ -93,9 +93,13 @@ NEXT_PUBLIC_DS_PASS=your-ds-pass
 
 🧩 Base Components Checklist
 
+- Alert
 - Button
-- Input
 - Card
+- Checkbox
+- Input
+- Modal
+- Select
 
 Components not available in Reactbits are composed with existing primitives and placeholder logic.
 
