@@ -34,7 +34,7 @@ Error: #FF6680
 
 Warning: #FFD666
 
-Accessibility: Keyboard navigation, visible focus, ARIA
+Accessibility: Keyboard navigation, visible focus, ARIA (see `ACCESSIBILITY.md`)
 
 Animated Lucide icons on hover (scale/color)
 
@@ -81,7 +81,7 @@ The main font is Geist, loaded via Google Fonts in the application.
 
 Lucide icons are imported via npm and used in components with optional hover animation.
 
-Each component is accessible (ARIA roles, keyboard, focus ring).
+Each component is accessible (ARIA roles, keyboard, focus ring). For details see `ACCESSIBILITY.md`.
 
 All mock data is used for demo purposes only. Where real data/API integration is needed, you’ll see clear TODOs and code comments.
 
