@@ -44,9 +44,9 @@ Atomic folder structure ready for future backend integration
 🗂️ Project Structure
 
 
-/src/components/   # All base UI components
-/src/theme/        # Theme tokens, Tailwind config, custom styles
-/src/icons/        # Lucide icon imports and wrappers
+/components/       # All base UI components
+/tokens/           # Design tokens and theme settings
+/styles/           # Global styles
 /stories/          # Storybook stories (one per component, full docs)
 /public/           # Static assets
 
@@ -74,7 +74,7 @@ Open http://localhost:3000 to view the app.
 All UI code lives in the `components/` directory.
 
 
-All styling uses Tailwind CSS configured for a 4px grid and the design system color tokens (see /src/theme/).
+All styling uses Tailwind CSS configured for a 4px grid and the design system color tokens (see `tokens/`).
 
 
 The main font is Geist, loaded via Google Fonts in the application.
