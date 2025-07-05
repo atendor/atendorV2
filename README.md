@@ -3,6 +3,8 @@ React Design System
 A fully customizable, accessible, and scalable UI system built with React and Tailwind CSS.
 Built with Reactbits, React, Tailwind CSS, Storybook, Lucide Icons, and the Geist font.
 
+You can view the design system online at [https://atendor.xyz](https://atendor.xyz). In some deployments it may be served from the `/atendor-ds` path.
+
 
 ✨ Key Features
 
@@ -57,8 +59,8 @@ README.md          # This documentation
 
 Clone the repository and install dependencies:
 
-git clone https://github.com/your-org/react-design-system.git
-cd react-design-system
+git clone https://github.com/atendor/atendorV2.git
+cd atendorV2
 npm install
 
 2. Start the development server
