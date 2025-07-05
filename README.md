@@ -1,11 +1,12 @@
-Atendor Design System
+React Design System
 
-A fully customizable, accessible, and scalable UI system for Atendor products.
-Built with Reactbits, React, Tailwind CSS, Lucide Icons, and the Geist font.
+A fully customizable, accessible, and scalable UI system built with React and Tailwind CSS.
+Built with Reactbits, React, Tailwind CSS, Storybook, Lucide Icons, and the Geist font.
+
 
 ✨ Key Features
 
-UI Kit: Reactbits https://github.com/DavidHDev/react-bits, fully customized for Atendor tokens and typography
+UI Kit: Reactbits https://github.com/DavidHDev/react-bits, fully customizable with design tokens and typography
 
 Tech stack: React (TypeScript), Tailwind (4px grid), Lucide, Geist (Google Fonts)
 
@@ -35,15 +36,18 @@ Accessibility: Keyboard navigation, visible focus, ARIA
 
 Animated Lucide icons on hover (scale/color)
 
-Atomic folder structure ready for future backend/API integration
+Atomic folder structure ready for future backend integration
 
 
 🗂️ Project Structure
 
-components/        # All base UI components
-styles/            # Global styles and Tailwind configuration
-pages/             # Next.js pages
-public/            # Static assets
+
+/src/components/   # All base UI components
+/src/theme/        # Theme tokens, Tailwind config, custom styles
+/src/icons/        # Lucide icon imports and wrappers
+/stories/          # Storybook stories (one per component, full docs)
+/public/           # Static assets
+
 .env.example       # Example for future API keys (N8N_API_URL)
 README.md          # This documentation
 
@@ -53,8 +57,8 @@ README.md          # This documentation
 
 Clone the repository and install dependencies:
 
-git clone https://github.com/your-org/atendor-design-system.git
-cd atendor-design-system
+git clone https://github.com/your-org/react-design-system.git
+cd react-design-system
 npm install
 
 2. Start the development server
@@ -67,7 +71,9 @@ Open http://localhost:3000 to view the app.
 
 All UI code lives in the `components/` directory.
 
-All styling uses Tailwind CSS configured for a 4px grid and Atendor color tokens (see `tailwind.config.js` and `styles/`).
+
+All styling uses Tailwind CSS configured for a 4px grid and the design system color tokens (see /src/theme/).
+
 
 The main font is Geist, loaded via Google Fonts in the application.
 
@@ -84,6 +90,9 @@ N8N_API_URL=https://your-api-url-here
 🧩 Base Components Checklist
 
 
+- Button
+- Input
+- Card
 
 Components not available in Reactbits are composed with existing primitives and placeholder logic.
 
@@ -120,5 +129,5 @@ MIT
 
 💬 Need Help?
 
-Open an issue or Pull Request, or contact the Atendor team.
+Open an issue or Pull Request if you need help.
 
