@@ -14,25 +14,25 @@ Tech stack: React (TypeScript), Tailwind (4px grid), Lucide, Geist (Google Fonts
 
 Color tokens:
 
-Primary: #925CFF
+Primary: #925CFF / #7F4AFF
 
-Accent: #37D7FF
+Accent: #37D7FF / #2DB8E4
 
-Secondary: #EADFFD
+Secondary: #EADFFD / #3B2A58
 
-Background: #FAFAFA
+Background: #FAFAFA / #09090B
 
-Surface: #FFFFFF
+Surface: #FFFFFF / #18181A
 
-Muted: #F1F1F6
+Muted: #F1F1F6 / #242428
 
-Text: #231942
+Text: #231942 / #E2E2E8
 
-Success: #30E39B
+Success: #30E39B / #22C55E
 
-Error: #FF6680
+Error: #FF6680 / #F43F5E
 
-Warning: #FFD666
+Warning: #FFD666 / #FACC15
 
 Accessibility: Keyboard navigation, visible focus, ARIA
 
