@@ -69,7 +69,12 @@ npm run dev
 
 Open http://localhost:3000 to view the app.
 
-3. Development
+3. Storybook
+
+Run `npm run storybook` to open the component docs.
+It is served by default at http://localhost:6006.
+
+4. Development
 
 All UI code lives in the `components/` directory.
 
