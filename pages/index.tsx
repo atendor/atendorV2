@@ -8,8 +8,8 @@ export default function Home() {
       <h1 className="text-3xl font-bold mb-6">Atendor Design System Test Page</h1>
       <Card className="w-full max-w-md p-6">
         <form className="flex flex-col gap-4">
-          <Input placeholder="Your email..." type="email" />
-          <Input placeholder="Your name..." type="text" />
+          <Input label="Email" placeholder="Your email..." type="email" />
+          <Input label="Name" placeholder="Your name..." type="text" />
           <Button type="submit">Test Button</Button>
         </form>
       </Card>
