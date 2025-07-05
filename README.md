@@ -44,7 +44,7 @@ Storybook docs: All component states, color tokens, usage, accessibility, code s
 /src/components/   # All base UI components
 /src/theme/        # Theme tokens, Tailwind config, custom styles
 /src/icons/        # Lucide icon imports and wrappers
-/src/stories/      # Storybook stories (one per component, full docs)
+/stories/          # Storybook stories (one per component, full docs)
 /public/           # Static assets
 .env.example       # Example for future API keys (N8N_API_URL)
 README.md          # This documentation
