@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import WorkflowCanvas from '../components/WorkflowCanvas';
-import NodeBlock from '../components/NodeBlock';
-import Connector from '../components/Connector';
+import { WorkflowCanvas } from '../components';
+import { NodeBlock } from '../components';
+import { Connector } from '../components';
 
 const meta: Meta<typeof WorkflowCanvas> = {
   title: 'Components/WorkflowCanvas',

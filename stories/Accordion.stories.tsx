@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import Accordion from '../components/Accordion';
+import { Accordion } from '../components';
 
 const meta: Meta<typeof Accordion> = {
   title: 'Components/Accordion',

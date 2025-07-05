@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import ExecutionLog from '../components/ExecutionLog';
+import { ExecutionLog } from '../components';
 
 const meta: Meta<typeof ExecutionLog> = {
   title: 'Components/ExecutionLog',

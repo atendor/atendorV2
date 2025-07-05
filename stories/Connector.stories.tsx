@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import Connector from '../components/Connector';
+import { Connector } from '../components';
 
 const meta: Meta<typeof Connector> = {
   title: 'Components/Connector',
