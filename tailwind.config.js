@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-const { colors, radii, transitions } = require("./tokens/theme.ts");
+const { colors, radii, transitions } = require("./tokens/theme.js");
 
 module.exports = {
   content: [
